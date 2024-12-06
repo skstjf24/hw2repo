@@ -3,7 +3,12 @@
 int sum(int n)
 {
   if (n == 0) return 0;
+<<<<<<< HEAD
   return n + sum(n-1);
+=======
+  if (n == 1) return 1;
+  return fib(n-1) + fib(n-2);
+>>>>>>> develop
 }
 
 int main()
@@ -13,6 +18,10 @@ int main()
   return 0;
 }
 
+<<<<<<< HEAD
 int sum(int a, int b) {
  return a + b; 
 }
+=======
+// Optimized Fibonacci function
+>>>>>>> develop
