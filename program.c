@@ -13,3 +13,5 @@ int main()
   printf("%d\n", fib(5));
   return 0;
 }
+
+// Optimized Fibonacci function
