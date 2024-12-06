@@ -12,3 +12,7 @@ int main()
   printf("%d\n", fib(5));
   return 0;
 }
+
+int sum(int a, int b) {
+ return a + b; 
+}
